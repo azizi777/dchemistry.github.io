@@ -104,3 +104,157 @@
   background: #66d7d7;
 }
 
+.logo-text {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 23px;
+  color: #212529;
+  margin-left: 0px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+#btn-nav-link {
+  color: #ffffff;
+  padding: 0px;
+}
+
+.nav-font-auth {
+  font-size: 18px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.btn-nav.nav-mobile {
+  background: rgb(232, 69, 69);
+  border-radius: 20px;
+  border-width: 0px;
+  border-style: none;
+  padding: 4px 22px;
+  margin-left: 14px;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .nav-mobile-link {
+    text-align: right;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-header {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 69px;
+    margin-bottom: -15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .sub-title {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sub-title.notebook {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-header.notebook {
+    font-size: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-bottom: -15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .kolom {
+    flex-direction: column!important;
+    background: rgba(0,0,0,0);
+  }
+}
+
+@media (min-width: 992px) {
+  .kolom {
+    margin-right: -80px;
+  }
+}
+
+.ukuran {
+  width: 208px;
+  height: 208px;
+}
+
+.custom-page {
+  color: var(--bs-dark);
+}
+
+@media (max-width: 992px) {
+  .logo-text.mobile {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-header.notebook.mobile {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-header.notebook.mobile {
+    font-size: 48px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  p .mobile {
+    font-size: 12px;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+}
+
+@media (max-width: 992px) {
+  .owl-carousel.owl-theme.mobile {
+    display: block!important;
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .mobile-car-no {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  .pegi-mob {
+    display: block;
+  }
+}
+
+@media (max-width: 992px) {
+  .rotat-i-top {
+    transform: rotate(90deg);
+  }
+}
+
+@media (max-width: 992px) {
+  .rotat-i-botom {
+    transform: rotate(90deg);
+  }
+}
+
+@media (max-width: 600px) {
+  .mobile {
+    text-align: center;
+  }
+}
+
