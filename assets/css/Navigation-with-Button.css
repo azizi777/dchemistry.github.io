@@ -213,6 +213,13 @@
   }
 }
 
+@media (max-width: 992px) {
+  nav .navbar .navbar-light .navbar-expand-md {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+
 @media (max-width: 600px) {
   .hero-header.notebook.mobile {
     font-size: 48px;
