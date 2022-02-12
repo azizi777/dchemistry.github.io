@@ -16,9 +16,10 @@
   }
 }
 
-.navigation-clean-button .navbar-brand {
-  font-weight: bold;
-  color: inherit;
+@media (max-width: 992px) {
+  #hero-top {
+    margin: auto;
+  }
 }
 
 .navigation-clean-button .navbar-brand:hover {
