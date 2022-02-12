@@ -216,7 +216,7 @@
 @media (max-width: 600px) {
   .hero-header.notebook.mobile {
     font-size: 48px;
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -264,6 +264,6 @@
 
 @media (max-width: 600px) {
   .mobile {
-    text-align: center;
+    text-align: left;
   }
 }
