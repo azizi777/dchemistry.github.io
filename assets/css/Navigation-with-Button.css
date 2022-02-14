@@ -1,7 +1,7 @@
 .navigation-clean-button {
   background: #fff;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
   color: #333;
   border-radius: 0;
   box-shadow: none;
@@ -9,17 +9,16 @@
   margin-bottom: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
   .navigation-clean-button {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
 }
 
-@media (max-width: 992px) {
-  #hero-top {
-    margin: auto;
-  }
+.navigation-clean-button .navbar-brand {
+  font-weight: bold;
+  color: inherit;
 }
 
 .navigation-clean-button .navbar-brand:hover {
@@ -30,8 +29,7 @@
   border-color: #ddd;
 }
 
-.navigation-clean-button .navbar-toggler:hover,
-.navigation-clean-button .navbar-toggler:focus {
+.navigation-clean-button .navbar-toggler:hover, .navigation-clean-button .navbar-toggler:focus {
   background: none;
 }
 
@@ -39,15 +37,12 @@
   color: #888;
 }
 
-.navigation-clean-button .navbar-nav a.active,
-.navigation-clean-button .navbar-nav > .show > a {
+.navigation-clean-button .navbar-nav a.active, .navigation-clean-button .navbar-nav > .show > a {
   background: none;
   box-shadow: none;
 }
 
-.navigation-clean-button.navbar-light .navbar-nav a.active,
-.navigation-clean-button.navbar-light .navbar-nav a.active:focus,
-.navigation-clean-button.navbar-light .navbar-nav a.active:hover {
+.navigation-clean-button.navbar-light .navbar-nav a.active, .navigation-clean-button.navbar-light .navbar-nav a.active:focus, .navigation-clean-button.navbar-light .navbar-nav a.active:hover {
   color: #8f8f8f;
   box-shadow: none;
   background: none;
@@ -63,28 +58,25 @@
   color: #465765;
 }
 
-.navigation-clean-button.navbar-light .navbar-nav .nav-link:focus,
-.navigation-clean-button.navbar-light .navbar-nav .nav-link:hover {
+.navigation-clean-button.navbar-light .navbar-nav .nav-link:focus, .navigation-clean-button.navbar-light .navbar-nav .nav-link:hover {
   color: #37434d !important;
   background-color: transparent;
 }
 
 .navigation-clean-button .navbar-nav > li > .dropdown-menu {
   margin-top: -5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,.1);
   background-color: #fff;
   border-radius: 2px;
 }
 
-.navigation-clean-button .dropdown-menu .dropdown-item:focus,
-.navigation-clean-button .dropdown-menu .dropdown-item {
+.navigation-clean-button .dropdown-menu .dropdown-item:focus, .navigation-clean-button .dropdown-menu .dropdown-item {
   line-height: 2;
   font-size: 14px;
   color: #37434d;
 }
 
-.navigation-clean-button .dropdown-menu .dropdown-item:focus,
-.navigation-clean-button .dropdown-menu .dropdown-item:hover {
+.navigation-clean-button .dropdown-menu .dropdown-item:focus, .navigation-clean-button .dropdown-menu .dropdown-item:hover {
   background: #eee;
   color: inherit;
 }
@@ -95,9 +87,7 @@
   color: #465765;
 }
 
-.navigation-clean-button .navbar-text .action-button,
-.navigation-clean-button .navbar-text .action-button:active,
-.navigation-clean-button .navbar-text .action-button:hover {
+.navigation-clean-button .navbar-text .action-button, .navigation-clean-button .navbar-text .action-button:active, .navigation-clean-button .navbar-text .action-button:hover {
   background: #56c6c6;
   border-radius: 20px;
   font-size: inherit;
@@ -105,7 +95,7 @@
   box-shadow: none;
   border: none;
   text-shadow: none;
-  padding: 0.5rem 1rem;
+  padding: .5rem 1rem;
   transition: background-color 0.25s;
   font-size: inherit;
 }
@@ -115,7 +105,7 @@
 }
 
 .logo-text {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 23px;
   color: #212529;
   margin-left: 0px;
@@ -128,9 +118,16 @@
   padding: 0px;
 }
 
+@media (max-width: 1200px) {
+  #btn-nav-link {
+    color: #ffffff;
+    padding: 0px;
+  }
+}
+
 .nav-font-auth {
   font-size: 18px;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .btn-nav.nav-mobile {
@@ -143,6 +140,18 @@
   text-align: center;
 }
 
+@media (max-width: 1200px) {
+  .btn-nav.nav-mobile {
+    background: rgb(232, 69, 69);
+    border-radius: 20px;
+    border-width: 0px;
+    border-style: none;
+    padding: 4px 22px;
+    margin-left: 14px;
+    text-align: center;
+  }
+}
+
 @media (min-width: 992px) {
   .nav-mobile-link {
     text-align: right;
@@ -151,7 +160,7 @@
 
 @media (min-width: 1200px) {
   .hero-header {
-    font-family: "IBM Plex Sans", sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 69px;
     margin-bottom: -15px;
   }
@@ -159,14 +168,14 @@
 
 @media (max-width: 500px) {
   .sub-title {
-    font-family: "IBM Plex Sans", sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 14px;
   }
 }
 
 @media (min-width: 1200px) {
   .sub-title.notebook {
-    font-family: "IBM Plex Sans", sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 18px;
   }
 }
@@ -174,7 +183,7 @@
 @media (max-width: 500px) {
   .hero-header.notebook {
     font-size: 24px;
-    font-family: "IBM Plex Sans", sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     margin-bottom: -15px;
   }
 }
@@ -182,8 +191,8 @@
 @media (max-width: 992px) {
   .kolom {
     justify-content: center;
-    flex-direction: column !important;
-    background: rgba(0, 0, 0, 0);
+    flex-direction: column!important;
+    background: rgba(0,0,0,0);
   }
 }
 
@@ -214,13 +223,6 @@
   }
 }
 
-@media (max-width: 992px) {
-  nav .navbar .navbar-light .navbar-expand-md {
-    margin-left: 8px;
-    margin-right: 8px;
-  }
-}
-
 @media (max-width: 600px) {
   .hero-header.notebook.mobile {
     font-size: 48px;
@@ -231,13 +233,13 @@
 @media (max-width: 992px) {
   p .mobile {
     font-size: 12px;
-    font-family: "IBM Plex Sans", sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
   }
 }
 
 @media (max-width: 992px) {
   .owl-carousel.owl-theme.mobile {
-    display: block !important;
+    display: block!important;
     text-align: center;
   }
 }
@@ -275,3 +277,34 @@
     text-align: left;
   }
 }
+
+@media (max-width: 1200px) {
+  .mob {
+    margin-left: 14px!important;
+  }
+}
+
+li .hoverme::hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+li .hoverme ::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.radius {
+  border-radius: 20px;
+}
+
+.join {
+  color: #595555;
+  border-style: none;
+  background: rgba(232,69,69,0);
+  font-size: 18px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  padding: 8px;
+  border-radius: 20px;
+}
+
