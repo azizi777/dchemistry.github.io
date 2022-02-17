@@ -54,6 +54,25 @@
         display: block;
         width: 100%;
       }
+      .swiper-pagination-bullet {
+        padding: 5px 10px;
+        border-radius: 4px;
+        width: 34px;
+        height: 34px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 18px;
+        font-weight: 400;
+        background: #fff;
+        color: #b2b2b2;
+        opacity: 1;
+        font-family: "IBM Plex Sans", sans-serif;
+      }
+
+      .swiper-pagination-bullet-active {
+        color: #000;
+        background: #e8eaed;
+      }
     </style>
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
@@ -312,6 +331,8 @@
     <!-- Bootstrap JS -->
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
+    <!-- Custom Javascript -->
+    <script src="/assets/js/script.js"></script>
     <!-- Animated AOS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -335,6 +356,14 @@
         },
         pagination: {
           el: ".swiper-pagination",
+          clickable: true,
+          renderBullet: function (index, className) {
+            return '<span class="' + className + '">' + (index + 1) + "</span>";
+          },
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
         },
       });
     </script>
