@@ -6,16 +6,14 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
-    <title>d.chemistryproject_</title>
+    <title>d.chemistryproject</title>
     <!-- Bootstrap Css -->
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
-    <!-- Fonts & Icon -->
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans"
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css" />
-    <link rel="stylesheet" href="assets/css/Footer-Basic.css" />
+    <!-- Fonts & Icon -->
+    <link rel="stylesheet" href="/assets/vendor/fonts/ionicons.min.css" />
     <!-- animated -->
     <link
       rel="stylesheet"
@@ -74,21 +72,19 @@
         background: #e8eaed;
       }
     </style>
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="/assets/style/css/main.css" />
   </head>
 
   <body>
     <!-- Hero Section -->
-    <section id="hero">
+    <section class="hero">
       <!-- Navbar Start -->
-      <nav
-        class="navbar navbar-light navbar-expand-md"
-        style="margin-left: 34px; margin-right: 34px"
-      >
+      <nav class="navbar navbar-light navbar-expand-md">
         <div class="container-fluid">
           <a class="navbar-brand logo-text mobile link-hover" href="#"
             >d.chemistryproject_</a
-          ><button
+          >
+          <button
             data-bs-toggle="collapse"
             class="navbar-toggler"
             data-bs-target="#navcol-1"
@@ -99,11 +95,9 @@
           <div
             class="collapse navbar-collapse justify-content-xxl-center"
             id="navcol-1"
-            style="margin-top: 0px; margin-right: 0px"
           >
             <ul
               class="navbar-nav text-center d-md-flex mx-auto justify-content-md-center align-items-md-center nav-mobile-link"
-              style="font-size: 16px; font-family: 'IBM Plex Sans', sans-serif"
             >
               <li
                 class="nav-item dropdown d-lg-flex justify-content-lg-center align-items-lg-center"
@@ -116,7 +110,7 @@
                   href="#"
                   >Program</a
                 >
-                <div class="dropdown-menu link-hover" style="border-style: none">
+                <div class="dropdown-menu link-hover">
                   <a class="dropdown-item link-hover" href="#">Workshop</a
                   ><a class="dropdown-item link-hover" href="#">Kelas Online</a
                   ><a class="dropdown-item link-hover" href="#"
@@ -131,7 +125,6 @@
                   class="nav-link link-hover"
                   data-bss-hover-animate="pulse"
                   href="#"
-                  style="padding: 0; padding-right: 8px; padding-left: 8px"
                   >Contact Us</a
                 >
               </li>
@@ -140,7 +133,6 @@
                   class="nav-link link-hover"
                   data-bss-hover-animate="pulse"
                   href="#"
-                  style="padding: 0; padding-right: 8px; padding-left: 8px"
                   >Blog</a
                 >
               </li>
@@ -175,34 +167,12 @@
       <!-- Navbar end -->
 
       <!-- Hero Banner Copywrtiting -->
-      <div
-        id="hero-top"
-        style="
-          margin-left: 0px;
-          margin-right: 0px;
-          background: url('assets/img/Rectangle%204.svg') top left / cover
-            no-repeat;
-          opacity: 1;
-        "
-      >
+      <div id="hero-top" class="hero-top">
         <div
           class="container-fluid d-block float-none align-items-stretch align-content-stretch mob"
-          style="
-            margin: auto;
-            padding-right: 0px;
-            width: 95%;
-            margin-bottom: 20px;
-          "
         >
           <div
             class="row d-inline-flex float-none justify-content-end align-items-center align-content-stretch kolom"
-            style="
-              padding-top: 40px;
-              padding-bottom: 30px;
-              width: 100%;
-              margin-bottom: 0px;
-              margin-top: 0px;
-            "
           >
             <!-- Carousel Slider-->
             <div class="container-fluid">
@@ -216,7 +186,6 @@
                     data-aos-duration="1000"
                     data-aos-delay="50"
                     class="hero-header notebook mobile"
-                    style="width: 100%; margin-top: 22px"
                   >
                     Hello Chems!
                   </h1>
@@ -225,14 +194,6 @@
                     data-aos="slide-right"
                     data-aos-duration="1200"
                     data-aos-delay="150"
-                    style="
-                      margin-top: 20px;
-                      font-family: 'IBM Plex Sans', sans-serif;
-                      font-size: 18px;
-                      line-height: 36px;
-                      width: 100%;
-                      margin-bottom: 16px;
-                    "
                   >
                     👋 Halo Chems<br />🌱 Bantuin Kamu: Tau Penerapan Kimia di
                     Kehidupan<br />📩 DM / Contact for Collab / Business
@@ -266,11 +227,10 @@
               </div>
               <!-- Carousel Slider End -->
 
-              <div class="row">
+              <div class="row bottom-arrow">
                 <div class="col">
                   <div
                     class="text-center d-xl-flex justify-content-xl-center buton"
-                    style="margin-bottom: 8px"
                   >
                     <a
                       class="btn btn-secondary text-center rounded-circle d-xl-flex justify-content-center align-items-xl-center join"
@@ -278,7 +238,6 @@
                       href="#footer"
                       ><i
                         class="icon ion-ios-arrow-down d-xl-flex justify-content-xl-center align-items-xl-center"
-                        style="font-size: 28px; height: 17.5px; width: 17.5px"
                       ></i
                     ></a>
                   </div>
@@ -293,7 +252,7 @@
     <!-- End Hero Section -->
 
     <!-- Footer Start -->
-    <footer id="footer" class="footer-basic" style="margin-top: 562px">
+    <footer id="footer" class="footer-basic">
       <div class="social">
         <a data-aos="slide-down" data-aos-duration="1000" href="#"
           ><i class="icon ion-social-instagram"></i></a
@@ -329,7 +288,7 @@
     <!-- Footer End -->
 
     <!-- Bootstrap JS -->
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <!-- Custom Javascript -->
     <script src="/assets/js/script.js"></script>

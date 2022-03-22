@@ -1,0 +1,269 @@
+// button navbar
+.navigation-clean-button {
+  background: #fff;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: #333;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 0;
+  .navbar-text {
+    .action-button,
+    .action-button:active,
+    .action-button:hover {
+      background: #56c6c6;
+      border-radius: 20px;
+      font-size: inherit;
+      color: #fff;
+      box-shadow: none;
+      border: none;
+      text-shadow: none;
+      padding: 0.5rem 1rem;
+      transition: background-color 0.25s;
+      font-size: inherit;
+    }
+  }
+  .actions {
+    .login {
+      margin-right: 1rem;
+      text-decoration: none;
+      color: #465765;
+    }
+  }
+  .navbar-light {
+    .navbar-nav {
+      li {
+        .dropdown-menu {
+          .dropdown-item,
+          .dropdown-item:focus {
+            line-height: 2;
+            font-size: 14px;
+            color: #37434d;
+          }
+          .dropdown-item:focus,
+          .dropdown-item:hover {
+            background: #eee;
+            color: inherit;
+          }
+          margin-top: -5px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          background-color: #fff;
+          border-radius: 2px;
+        }
+      }
+      .nav-link {
+        padding-left: 18px;
+        padding-right: 18px;
+        color: #465765;
+      }
+      .nav-link:focus,
+      .nav-link:hover {
+        color: #37434d !important;
+        background-color: transparent;
+      }
+      a.active,
+      a.active:hover,
+      a.active:focus {
+        color: #8f8f8f;
+        box-shadow: none;
+        background: none;
+        pointer-events: none;
+        .show > a {
+          background: none;
+          box-shadow: none;
+        }
+      }
+    }
+  }
+  .navbar-brand {
+    font-weight: bold;
+    color: inherit;
+    :hover {
+      color: #222;
+    }
+  }
+  .navbar-toggler {
+    border-color: #ddd;
+    color: #888;
+    :hover,
+    :focus {
+      background: none;
+    }
+  }
+}
+
+.logo-text {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 23px !important;
+  color: #212529;
+  margin-left: 0px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+#btn-nav-link {
+  color: #ffffff;
+  padding: 0px;
+}
+
+.nav-font-auth {
+  font-size: 18px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.btn-nav.nav-mobile {
+  background: rgb(232, 69, 69);
+  border-radius: 20px;
+  border-width: 0px;
+  border-style: none;
+  padding: 4px 22px;
+  margin-left: 14px;
+  text-align: center;
+}
+.ukuran {
+  width: 208px;
+  height: 208px;
+}
+
+.custom-page {
+  color: var(--bs-dark);
+}
+
+li .hoverme::hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+li .hoverme ::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.join {
+  color: #595555;
+  border-style: none;
+  background: rgba(232, 69, 69, 0);
+  font-size: 18px;
+  font-family: "IBM Plex Sans", sans-serif;
+  padding: 8px;
+  border-radius: 20px;
+}
+.btn.btn-secondary.text-center.border.rounded-circle.d-xl-flex.justify-content-center.align-items-xl-center.join {
+}
+
+.join:hover {
+  background-color: #e84545 !important;
+}
+
+.link-hover:hover {
+  color: #e84545 !important;
+  background-color: #fff !important;
+}
+
+.shadow-car:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.daftar:hover {
+  background-color: #f18e8e;
+  color: #a3a3a3;
+}
+
+@media (max-width: 500px) {
+  .sub-title {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 14px;
+  }
+  .hero-header.notebook {
+    font-size: 24px;
+    font-family: "IBM Plex Sans", sans-serif;
+    margin-bottom: -15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-header.notebook.mobile {
+    font-size: 48px;
+    text-align: left;
+  }
+  .mobile {
+    text-align: left;
+  }
+}
+@media (min-width: 768px) {
+  .navigation-clean-button {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-mobile-link {
+    text-align: right;
+  }
+  .kolom {
+    justify-content: center;
+    flex-direction: column !important;
+    background: rgba(0, 0, 0, 0);
+    margin-right: -80px;
+  }
+  .logo-text.mobile {
+    font-size: 18px;
+  }
+
+  .hero-header.notebook.mobile {
+    font-size: 48px;
+  }
+
+  p .mobile {
+    font-size: 12px;
+    font-family: "IBM Plex Sans", sans-serif;
+  }
+  .owl-carousel.owl-theme.mobile {
+    display: block !important;
+    text-align: center;
+  }
+  .mobile-car-no {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    margin-right: 0px;
+  }
+  .pegi-mob {
+    display: block;
+  }
+  .rotat-i-top,
+  .rotat-i-botom {
+    transform: rotate(90deg);
+  }
+}
+
+@media (max-width: 1200px) {
+  .btn-nav.nav-mobile {
+    background: rgb(232, 69, 69);
+    border-radius: 20px;
+    border-width: 0px;
+    border-style: none;
+    padding: 4px 22px;
+    margin-left: 14px;
+    text-align: center;
+  }
+  #btn-nav-link {
+    color: #ffffff;
+    padding: 0px;
+  }
+  .hero-header {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 69px;
+    margin-bottom: -15px;
+  }
+  .sub-title.notebook {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 18px;
+  }
+  .mob {
+    margin-left: 14px !important;
+  }
+}
