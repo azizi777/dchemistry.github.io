@@ -360,29 +360,6 @@ li .hoverme ::before {
   margin-bottom: 0;
 }
 
-.navbar {
-  margin: 0 34px;
-}
-
-.navbar .collapse {
-  margin-top: 0px;
-  margin-right: 0px;
-}
-
-.navbar .collapse .navbar-nav {
-  font-size: 16px;
-}
-
-.navbar .collapse .navbar-nav .dropdown-menu {
-  border-style: none;
-}
-
-.navbar .collapse .navbar-nav .nav-link {
-  padding: 0;
-  padding-right: 8px;
-  padding-left: 8px;
-}
-
 .hero-top {
   margin-left: 0px;
   margin-right: 0px;
@@ -427,5 +404,28 @@ li .hoverme ::before {
   font-size: 28px;
   height: 17.5px;
   width: 17.5px;
+}
+
+.navbar {
+  margin: 0 34px;
+}
+
+.navbar .collapse {
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+.navbar .collapse .navbar-nav {
+  font-size: 16px;
+}
+
+.navbar .collapse .navbar-nav .dropdown-menu {
+  border-style: none;
+}
+
+.navbar .collapse .navbar-nav .nav-link {
+  padding: 0;
+  padding-right: 8px;
+  padding-left: 8px;
 }
 /*# sourceMappingURL=main.css.map */

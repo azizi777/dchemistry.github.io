@@ -1,0 +1,46 @@
+// Hero
+.hero-top {
+  margin-left: 0px;
+  margin-right: 0px;
+  background: url("/assets/img/Rectangle%204.svg") top left / cover no-repeat;
+  opacity: 1;
+  .mob {
+    .kolom {
+      .container-fluid {
+        .row {
+          h1 {
+            font-size: 4.3em;
+            width: 100%;
+            margin-top: 22px;
+          }
+          p {
+            margin-top: 20px;
+            font-size: 18px;
+            line-height: 36px;
+            width: 100%;
+            margin-bottom: 16px;
+          }
+        }
+        .bottom-arrow {
+          .buton {
+            margin-bottom: 8px;
+            .icon {
+              font-size: 28px;
+              height: 17.5px;
+              width: 17.5px;
+            }
+          }
+        }
+      }
+      padding-top: 40px;
+      padding-bottom: 30px;
+      width: 100%;
+      margin-bottom: 0px;
+      margin-top: 0px;
+    }
+    margin: auto;
+    padding-right: 0px;
+    width: 95%;
+    margin-bottom: 20px;
+  }
+}
